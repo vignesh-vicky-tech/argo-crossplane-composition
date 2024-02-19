@@ -3,7 +3,7 @@ apiVersion: compositions.io/v1alpha1
 kind: Instance
 metadata:
   name: sample-crossplane-ec2
-  namespace: default
+  namespace: crossplane-test
 spec:
   parameters:
     region: us-east-1
